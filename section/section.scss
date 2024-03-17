@@ -21,6 +21,9 @@ section{
         @media screen and (width < 650px){
              display: none;
         }
+        @media screen and (width < 650px) {
+            width: 90%;
+        }
 
 
         .all-blog{

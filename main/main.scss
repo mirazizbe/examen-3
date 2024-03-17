@@ -18,9 +18,8 @@ main{
         margin-inline: 50px;
     }
     @media screen and (width < 570px) {
-        display: block;
         margin: auto;
-        margin-inline: 50px;
+        margin-inline: 80px;
     }
 
 
@@ -31,6 +30,11 @@ main{
         flex-direction: column;
         text-align: center;
         row-gap: 1.5rem;
+        @media screen and (width < 570px) {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+        }
 
         .blog{
             display: flex;
@@ -38,6 +42,12 @@ main{
             flex-direction: row;
             gap: 1.25rem;
             color:  #605F5F;
+
+            @media screen and (width < 570px) {
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+            }
             
         }
     }
