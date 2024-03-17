@@ -1,0 +1,70 @@
+@import url("../base.css");
+header {
+  font-family: "Space Grotesk", sans-serif;
+  flex-grow: 1;
+}
+header .nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.125rem;
+  margin-bottom: 1.125rem;
+  gap: 17.5rem;
+}
+@media screen and (width < 1150px) {
+  header .nav-header {
+    gap: 10rem;
+  }
+}
+@media screen and (width < 930px) {
+  header .nav-header {
+    gap: 40rem;
+  }
+}
+@media screen and (width < 830px) {
+  header .nav-header {
+    gap: -5px;
+  }
+}
+@media screen and (width < 830px) {
+  header .nav-header {
+    gap: 300px;
+  }
+}
+header .nav-header .icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+header ul {
+  display: flex;
+  gap: 2.5rem;
+  line-height: 0.6rem;
+}
+@media (max-width: 930px) {
+  header nav {
+    display: none;
+  }
+  header #none {
+    display: none;
+  }
+  header li:first-child img {
+    display: none;
+  }
+  header li:nth-child(2) img {
+    display: none;
+  }
+  header .hum-menu {
+    display: flex;
+  }
+  header .logo img {
+    width: 90px;
+    height: 24px;
+  }
+}/*# sourceMappingURL=header.css.map */

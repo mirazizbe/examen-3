@@ -1,0 +1,160 @@
+section {
+  font-family: "Inter", sans-serif;
+}
+section .section-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 3.125rem;
+  gap: 45rem;
+}
+@media screen and (width < 1170px) {
+  section .section-nav {
+    gap: 25rem;
+  }
+}
+@media screen and (width < 850px) {
+  section .section-nav {
+    gap: 15rem;
+  }
+}
+@media screen and (width < 650px) {
+  section .section-nav {
+    display: none;
+  }
+}
+section .section-nav .all-blog {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+section .section-nav .all-blog button {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  border: none;
+  background: none;
+  color: rgb(128, 126, 126);
+}
+section .section-nav .navigation {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  gap: 2rem;
+}
+section .section-nav .navigation .sort-by {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+}
+section .section-nav .navigation .sort-by p {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+section .section-nav .navigation .boxs {
+  display: flex;
+  justify-content: space-around;
+}
+section .section-nav .navigation .boxs img {
+  border: 2px solid;
+  border-color: rgb(232, 236, 239);
+  padding: 10px;
+  box-shadow: none;
+  cursor: pointer;
+}
+section .section-nav .navigation .boxs #box:hover {
+  background-color: rgb(194, 196, 198);
+}
+section .nav-blog {
+  width: 350px;
+  height: 48px;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  border-radius: 8px;
+  border: 2px solid rgb(108, 114, 117);
+  display: none;
+  justify-content: space-between;
+  flex-direction: row;
+}
+@media screen and (width < 650px) {
+  section .nav-blog {
+    display: flex;
+    margin: auto;
+    transform: translateY(20px);
+  }
+}
+section .nav-blog img {
+  width: 15px;
+}
+section .cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-block: 1.5rem;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+  row-gap: 2.5rem;
+}
+section .cards h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: rgb(35, 38, 47);
+}
+section .cards p {
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: rgb(108, 114, 117);
+}
+section .cards img {
+  width: 100%;
+}
+@media screen and (width < 900px) {
+  section .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    padding-inline: 2rem;
+    row-gap: 2.5rem;
+  }
+  section .cards img {
+    width: 100vw;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media screen and (width < 600px) {
+  section .cards img {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+.more {
+  display: grid;
+  place-items: center;
+  margin: 5rem 0 5rem 0;
+}
+.more button {
+  border: 1px solid;
+  border-radius: 80px;
+  padding: 0.375rem 2.5rem 0.375rem 2.5rem;
+  cursor: pointer;
+  background: none;
+}
+.more button:hover {
+  color: #fff;
+  background-color: rgb(20, 23, 24);
+}/*# sourceMappingURL=section.css.map */

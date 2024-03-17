@@ -1,0 +1,72 @@
+@import url("../base.css");
+
+
+header{
+    font-family: "Space Grotesk", sans-serif;
+    // width: 100%;
+    flex-grow: 1;
+
+    .nav-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.125rem;
+        margin-bottom: 1.125rem;
+        gap: 17.5rem;
+        @media screen and (width < 1150px){
+            gap: 10rem;
+        }
+        @media screen and (width < 930px){
+            gap: 40rem;
+        }
+        @media screen and (width < 830px){
+            gap: -5px;
+        }
+        @media screen and (width < 830px){
+            gap: 300px;
+        }
+
+        
+        .icons{
+            display: flex;
+            flex-direction: row;
+              gap: 1rem;
+            align-items: center;
+        }
+    }
+
+    button{
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    ul{
+        display: flex;
+        // justify-content: space-around;
+        gap: 2.5rem;
+        line-height: 0.6rem;
+    }
+    
+    @media (max-width:930px){
+        nav{
+            display: none;
+        }
+        #none{
+            display: none;
+        }
+        li:first-child img {
+            display: none;
+        }
+        li:nth-child(2) img{
+            display: none;
+        }
+        .hum-menu{
+            display: flex;
+        }
+        .logo img{
+            width: 90px;
+            height: 24px;
+        }
+    }
+}

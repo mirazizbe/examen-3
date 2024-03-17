@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    
+    margin: auto;
+
+    background: url("../images/bg-header.png");
+    background-size: cover;
+    background-position: center; 
+    margin-inline: 160px;
+    @media screen and (width < 1510px){
+        margin-inline: 50px;
+    }
+
+    .main-title {
+        padding: 7.1875rem  7.1875rem ;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 1.5rem;
+
+        .blog{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            gap: 1.25rem;
+            color:  #605F5F;
+            
+        }
+    }
+
+    h1{
+        font-family: "Poppins", sans-serif;
+        font-size: 3.375rem;
+        font-weight: 600;
+        line-height: 3.625rem;
+    }
+    p{
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+}
