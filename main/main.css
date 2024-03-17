@@ -16,6 +16,18 @@ main {
     margin-inline: 50px;
   }
 }
+@media screen and (width < 640px) {
+  main {
+    margin-inline: 50px;
+  }
+}
+@media screen and (width < 570px) {
+  main {
+    display: block;
+    margin: auto;
+    margin-inline: 50px;
+  }
+}
 main .main-title {
   padding: 7.1875rem 7.1875rem;
   display: flex;
